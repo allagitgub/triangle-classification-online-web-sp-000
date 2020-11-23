@@ -23,14 +23,11 @@ class Triangle
   def valid?
     if self.side1 > 0 && self.side2 > 0 && self.side3 > 0
       if self.side1 + self.side2 > self.side3 && self.side1 + self.side3 > self.side2 && self.side2 + self.side3 > self.side1
-        puts "adding sides"
         true
       else
-        puts "not adding sides"
         false
       end
     else
-      puts "some sides less or equalt to 0"
       false
     end
   end
