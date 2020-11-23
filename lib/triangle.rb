@@ -30,7 +30,7 @@ class Triangle
         false
       end
     else
-      puts "some sides less that 0"
+      puts "some sides less or equalt to 0"
       false
     end
   end
